@@ -30,11 +30,25 @@
             "module": "Laminas\\ApiTools\\MvcAuth"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kersysgediminas/api-tools-oauth2"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kersysgediminas/api-tools-api-problem"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kersysgediminas/api-tools-content-negotiation"
+        }
+    ],
     "require": {
         "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
-        "laminas-api-tools/api-tools-api-problem": "^1.5.0",
-        "laminas-api-tools/api-tools-content-negotiation": "^1.8.0",
-        "laminas-api-tools/api-tools-oauth2": "^1.9",
+        "laminas-api-tools/api-tools-api-problem": "dev-php-8.3 as 1.7.0",
+        "laminas-api-tools/api-tools-content-negotiation": "dev-php-8.3 as 1.9.0",
+        "laminas-api-tools/api-tools-oauth2": "dev-php-8.3 as 1.10.0",
         "laminas/laminas-authentication": "^2.9.0",
         "laminas/laminas-eventmanager": "^3.4",
         "laminas/laminas-http": "^2.15.1",
